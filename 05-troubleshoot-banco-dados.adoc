@@ -1,0 +1,26 @@
+Comando do https://laravel.com/docs/artisan[Artisan] para restaurar um
+backup do banco de dados:
+
+[source,bash]
+----
+docker-compose exec php artisan database:restore <database> <filename>
+
+# exemplo
+docker-compose exec php artisan database:restore ieducar database/backups/ieducar.backup
+----
+
+O comando executa os seguintes passos: - Apaga o banco de dados se ele
+existir, `ieducar` neste exemplo. - Cria o banco de dados. - Faz o
+restore do arquivo de backup. - `filename` deve ser o caminho relativo a
+partir do root do projeto. - Executa o script de alteração do
+`search_path`.
+
+Este comando está disponível desde a versão 2.1.1, para utilizá-lo é
+preciso compilar a imagem `php` do projeto executando:
+
+[source,bash]
+----
+docker-compose down
+docker-compose build
+docker-compose up -d
+----

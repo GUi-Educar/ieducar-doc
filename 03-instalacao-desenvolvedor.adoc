@@ -1,0 +1,46 @@
+==== Dependência
+
+Para executar o projeto é necessário a utilização de alguns softwares
+para facilitar o desenvolvimento.
+
+==== Instalação utilizando Docker
+
+____
+ATENÇÃO: Essa forma de instação tem o objetivo de facilitar
+demonstrações e desenvolvimento. Não é recomendado para ambientes de
+produção!
+____
+
+Para instalar o projeto execute *todos os passos* abaixo, caso você
+deseje atualizar sua instalação do i-Educar, siga os passos do
+link:#upgrade[upgrade].
+
+Clone o repositório:
+
+[source,bash]
+----
+git clone https://github.com/portabilis/i-educar.git && cd i-educar
+----
+
+Faça o build das imagens Docker utilizadas no projeto (pode levar alguns
+minutos) e inicie os containers da aplicação:
+
+[source,bash]
+----
+docker-compose up -d --build
+----
+
+Execute o comando para fazer uma nova instalação:
+
+[source,bash]
+----
+docker-compose exec php composer new-install
+----
+
+===== Xdebug
+
+A ferramenta https://xdebug.org/[Xdebug] está incluída no projeto com o
+intuito de facilitar o processo de debug durante o desenvolvimento. Para
+configurá-la, modifique os valores das variáveis `XDEBUG_*` no arquivo
+`docker-compose.override.yml` conforme orientações da sua IDE de
+desenvolvimento.

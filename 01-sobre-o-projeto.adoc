@@ -1,0 +1,61 @@
+=== Sobre i-Educar
+
+O i-Educar é um software livre de gestão escolar totalmente on-line que
+permite secretários escolares, professores, coordenadores e gestores da
+área possam utilizar uma ferramenta que produz informações e
+estatísticas em tempo real, com um banco de dados centralizado e de
+fácil acesso, diminuindo a necessidade de uso de papel, a duplicidade de
+documentos, o tempo de atendimento ao cidadão e racionalizando o
+trabalho do servidor público.
+
+Ele foi originalmente desenvolvido pela prefeitura de Itajaí - SC e
+disponibilizado no Portal do Software Público do Governo Federal em
+2008, com o objetivo de atender às necessidades das Secretarias de
+Educação e Escolas Públicas de *todo o Brasil*.
+
+=== Comunicação
+
+Acreditamos que o sucesso do projeto depende diretamente da interação
+clara e objetiva entre os membros da Comunidade. Por isso, estamos
+definindo algumas políticas para que estas interações nos ajudem a
+crescer juntos! Você pode consultar algumas destas boas práticas em
+nosso
+https://github.com/portabilis/i-educar/blob/master/code-of-conduct.md[código
+de conduta].
+
+Além disso, gostamos de meios de comunicação assíncrona, onde não há
+necessidade de respostas em tempo real. Isso facilita a produtividade
+individual dos colaboradores do projeto.
+
+[width="100%",cols="67%,33%",options="header",]
+|===
+|Canal de comunicação |Objetivos
+|https://forum.ieducar.org[Fórum] |- Tirar dúvidas - Discussões de como
+instalar a plataforma - Discussões de como usar funcionalidades -
+Suporte entre membros de comunidade - FAQ da comunidade (sobre o produto
+e funcionalidades)
+
+|https://github.com/portabilis/i-educar/issues/new/choose[Issues do
+Github] |- Sugestão de novas funcionalidades - Reportar bugs -
+Discussões técnicas
+
+|https://t.me/ieducar[Telegram] |- Comunicar novidades sobre o projeto -
+Movimentar a comunidade - Falar tópicos que *não* demandem discussões
+profundas
+|===
+
+Qualquer outro grupo de discussão não é reconhecido oficialmente pela
+comunidade i-Educar e não terá suporte da Portabilis - mantenedora do
+projeto.
+
+=== Como contribuir
+
+Contribuições são *super bem vindas*! Se você tem vontade de construir o
+i-Educar junto conosco, veja o nosso link:./contributing.md[guia de
+contribuição] onde explicamos detalhadamente como trabalhamos e de que
+formas você pode nos ajudar a alcançar nossos objetivos.
+
+=== Perguntas frequentes (FAQ)
+
+Algumas perguntas aparecem recorrentemente. Olhe primeiro por aqui:
+https://github.com/portabilis/i-educar-website/blob/master/docs/faq.md[FAQ].

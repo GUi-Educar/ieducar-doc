@@ -1,0 +1,117 @@
+____
+*Importante:* se você estiver utilizando a versão 2.1.x do i-Educar,
+utilize os comandos de instalação que se encontram no
+https://github.com/portabilis/i-educar-reports-package[repositório].
+____
+
+Para adicionar o novo pacote de relatórios ao i-Educar, é necessário
+realizar algumas configurações.
+
+== Atualizar o i-Educar.
+
+Acesse a página do projeto e execute o seguinte comando:
+
+[source,terminal]
+----
+git checkout master
+git pull
+----
+
+Logo em seguida, atualize as dependências do Composer:
+
+[source,terminal]
+----
+docker run -it -v $(pwd):/app composer install --ignore-platform-reqs
+----
+
+== Instalar o repositório dos relatórios
+
+Caso você ainda não tenha instalado o repositório dos relatórios do
+i-Educar, execute o seguinte comando:
+
+[source,terminal]
+----
+git clone https://github.com/portabilis/i-educar-reports-package.git ieducar/modules/Reports
+----
+
+Atualize a branch `master`:
+
+[source,terminal]
+----
+git checkout master
+git pull
+----
+
+== Configurar o i-Educar
+
+Agora você precisará configurar a integração do pacote de relatórios com
+o i-Educar.
+
+Abra o arquivo `ieducar/configuration/ieducar.ini` e adicione a seguinte
+linha as configurações dos relatórios:
+
+[source,terminal]
+----
+report.source_path = /home/portabilis/ieducar/ieducar/modules/Reports/ReportSources/
+----
+
+Altere também o arquivo `phinx.php`, para adicionar as migrations dos
+relatórios:
+
+[source,php]
+----
+...
+
+$configuration = array(
+    "paths" => array(
+        "migrations" => array(
+            "ieducar/misc/database/migrations",
+            "ieducar/modules/Reports/database/migrations",   // <<<<< ADICIONAR ESTA LINHA
+        ),
+        "seeds" => array(
+            "ieducar/misc/database/seeds",
+            "ieducar/modules/Reports/database/seeds",        // <<<<< ADICIONAR ESTA LINHA
+        ),
+    ),
+    "environments" => $environments,
+);
+
+...
+----
+
+== Seed e migrations
+
+Os relatórios também possuem sua seed inicial para o banco de dados e as
+migrations que são individuais por cada relatório.
+
+Execute os seguintes comandos:
+
+[source,terminal]
+----
+docker-compose exec ieducar_1604 ieducar/vendor/bin/phinx seed:run -s StartingReportsSeed
+docker-compose exec ieducar_1604 ieducar/vendor/bin/phinx migrate
+----
+
+== Configurando permissões
+
+Para que tudo funcione adequadamente, principalmente a parte de
+relatórios, é necessário definir algumas permissões especiais em pastas
+e arquivos. Use os comandos abaixo:
+
+[source,terminal]
+----
+docker-compose exec ieducar_1604 chmod +x ieducar/vendor/cossou/jasperphp/src/JasperStarter/bin/jasperstarter
+docker-compose exec ieducar_1604 chmod 777 -R ieducar/modules/Reports/ReportSources/
+----
+
+== Compilando arquivos do JasperReports
+
+[source,terminal]
+----
+docker-compose exec ieducar_1604 bash
+cd ieducar/modules/Reports/ReportSources
+for line in $(ls -a | sort | grep .jrxml | sed -e "s/\.jrxml//"); do $(../../../vendor/cossou/jasperphp/src/JasperStarter/bin/jasperstarter cp $line.jrxml -o $line); done
+----
+
+Após realizar os passos acima, os relatórios estarão disponíveis para
+serem utilizados.

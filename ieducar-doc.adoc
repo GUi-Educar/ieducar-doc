@@ -1,0 +1,71 @@
+= Documentação do i-Educar
+
+v0.0.1, 7/7/2021
+:updated: 2021-07-07
+:Author: i-Educar User Group
+:Email: 
+:Date: 7/7/2021
+:Revision: v0.1.0
+:doctype: book
+:producer: Asciidoctor
+:keywords: educação, ebook, e-book
+:reproducible:
+:icons: font
+:lang: pt-BR
+:toc-title: Índice
+:caution-caption: Cuidado
+:important-caption: Importante
+:note-caption: Nota
+:tip-caption: Dica
+:warning-caption: Atenção
+:appendix-caption: Apêndice
+:example-caption: Exemplo
+:figure-caption: Figura
+:table-caption: Tabela
+:toclevels: 5
+:ascii-ids:
+:showcomments:
+:stem: latexmath
+:math:
+:mathematical-format: png
+:gitrepo: https://github.com/farribeiro/ieducar-doc
+:copyright: CC-BY-SA 4.0
+:text-alignment: justify
+:source-highlighter: rouge
+:imagesdir: imagens
+:imagesoutdir: img
+:front-cover-image: image:cover.png[Capa,1350,1909]
+ifndef::ebook-format[:leveloffset: 1]
+
+.Versão {Revision} de {Date}
+
+IMPORTANT: A versão mais atual deste livro estará sempre disponível no endereço:
+http://www.makerlinux.com.br/ebook[http://www.makerlinux.com.br/ebook]
+
+NOTE: Por favor, ao mencioná-lo, cite este endereço para baixar o livro (e se possível fazer doações). Não
+é obrigatório mas seria uma gentileza. E preferivelmente não diga que o livro é "free": passa a idéia
+errada de motivações e objetivos. O livro é _livre_ (open-source), licença CC-BY-SA, diferente em escopo e
+propósitos de algo meramente gratuito.
+
+<<<
+include::01-sobre-o-projeto.adoc[]
+
+<<<
+
+include::02-instalacao-servidor.adoc[]
+
+<<<
+
+include::03-instalacao-desenvolvedor.adoc[]
+
+<<<
+
+include::04-pacote-de-relatorios.adoc[]
+
+<<<
+
+include::05-troubleshoot-banco-dados.adoc[]
+
+<<<
+
+include::06-operacao-ieducar.adoc[]
