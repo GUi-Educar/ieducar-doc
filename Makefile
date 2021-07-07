@@ -1,4 +1,4 @@
-PROJECT=ieducar
+PROJECT=ieducar-doc
 SOURCE=$(PROJECT).adoc
 TARGETPDF=$(PROJECT).pdf
 TARGETHTML=$(PROJECT).html

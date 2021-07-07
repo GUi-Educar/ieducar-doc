@@ -40,7 +40,7 @@ ifndef::ebook-format[:leveloffset: 1]
 .Versão {Revision} de {Date}
 
 IMPORTANT: A versão mais atual deste livro estará sempre disponível no endereço:
-http://www.makerlinux.com.br/ebook[http://www.makerlinux.com.br/ebook]
+http://www.github.com/farribeiro/ieducar-doc/]
 
 NOTE: Por favor, ao mencioná-lo, cite este endereço para baixar o livro (e se possível fazer doações). Não
 é obrigatório mas seria uma gentileza. E preferivelmente não diga que o livro é "free": passa a idéia
