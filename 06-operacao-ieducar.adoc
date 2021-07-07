@@ -250,7 +250,7 @@ utilizados no cadastro de pessoas, alunos, escolas e outros. Para
 acessar o mesmo, basta clicar em *Endereçamento* apresentado na barra de
 módulos do sistema.
 
-image:../img/user-docs/user-figura-11-modulo-enderecamento.png[image]
+image:img/user-docs/user-figura-11-modulo-enderecamento.png[image]
 
 == Módulo Pessoas
 
@@ -259,7 +259,7 @@ jurídicas_ que serão trabalhadas dentro do sistema. Estas pessoas
 incluem escolas, professores, pais, alunos dentro outros, que depois de
 registrados no sistema, passa a fazer parte de um cadastro único.
 
-image:../img/user-docs/user-figura-12-modulo-pessoas.png[image]
+image:img/user-docs/user-figura-12-modulo-pessoas.png[image]
 
 Além do cadastramento das pessoas físicas e jurídicas, ainda é possível
 no módulo Pessoas, registrar os tipos de deficiência e tipos de cor ou
@@ -281,7 +281,7 @@ ____
 *Localização:* Módulo Pessoas > Cadastros > Tipos > Tipos de deficiência
 ____
 
-image:../img/user-docs/user-figura-13-tipos-deficiencia.png[Lista de
+image:img/user-docs/user-figura-13-tipos-deficiencia.png[Lista de
 deficiências com itens ``Altas Habilidades/Superdotação'', ``Autismo
 Clássico'', ``Baixa Visão'']
 
@@ -294,7 +294,7 @@ ____
 *Localização:* Módulo Pessoas > Cadastros > Tipos > Tipos de cor ou raça
 ____
 
-image:../img/user-docs/user-figura-14-listagem-raca.png[Lista de raças
+image:img/user-docs/user-figura-14-listagem-raca.png[Lista de raças
 com itens ``Amarela'', ``Branca'', ``Indigena'', ``Não Declarada'',
 ``Parda'' e ``Preta'']
 
