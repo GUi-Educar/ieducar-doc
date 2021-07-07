@@ -1,11 +1,10 @@
 = Documentação do i-Educar
-
 v0.0.1, 7/7/2021
 :updated: 2021-07-07
 :Author: i-Educar User Group
 :Email: 
 :Date: 7/7/2021
-:Revision: v0.1.0
+:Revision: v0.0.1
 :doctype: book
 :producer: Asciidoctor
 :keywords: educação, ebook, e-book
