@@ -1,7 +1,9 @@
+== Operação do sistema
+
 Nesta seção, apresentaremos como acessar o sistema e como funcionam os
 botões, listas, filtros de busca e seleções nas páginas do sistema.
 
-== Acesso ao sistema
+=== Acesso ao sistema
 
 Para acessar o sistema, basta abrir o navegador, acessar o endereço na
 internet onde o mesmo foi disponibilizado e então informar sua Matrícula
@@ -10,7 +12,7 @@ e Senha, fornecida pelo administrador do sistema.
 image:imagens/user-docs/user-figura-2-tela-login.png[Tela de login ao
 sistema i-Educar]
 
-== Tela inicial
+=== Tela inicial
 
 Na página de entrada podem ser inseridas mensagens aos usuários, como
 novidades do sistema ou alertas de manutenção periódica. Existe também
@@ -68,7 +70,7 @@ campo e selecionar o resultado desejado.
 image:imagens/user-docs/user-figura-3-busca-rapida.png[Campo de Busca
 Rápida com lista pré-carregada para serem selecionadas]
 
-== Comportamento das listas e botões
+=== Comportamento das listas e botões
 
 Quando um cadastro é aberto uma listagem de registros é exibida, e ao
 clicar em um destes registros é aberta uma nova página com opções
@@ -181,7 +183,7 @@ cadastro. Quando um campo possuir esta lupa ao lado, ao pressioná-la
 abrirá uma janela para pesquisar registros de outro cadastro.
 |===
 
-== Filtros de busca e seleção
+=== Filtros de busca e seleção
 
 Quando os cadastros são abertos, na parte inferior da página são
 exibidos campos que podem ser usados para filtrar os registros da
@@ -233,12 +235,12 @@ NOTE: O componente lupa é genérico, e poderá ser exibido em outras
 áreas do sistema como forma de auxílio ao preenchimento de campos de
 outros cadastros.
 
-== Módulo Endereçamento e Pessoas
+=== Módulo Endereçamento e Pessoas
 
 Apresentação dos módulos de endereçamento e pessoas físicas e jurídicas,
 além dos tipos deficiência, cor ou raça e religião.
 
-== Módulo Endereçamento
+=== Módulo Endereçamento
 
 No módulo *Endereçamento* devem ser inseridas as informações dos
 _bairros_, _logradouros_ e _CEPs_ da instituição para que possam ser
@@ -248,7 +250,7 @@ módulos do sistema.
 
 image:imagens/user-docs/user-figura-11-modulo-enderecamento.png[image]
 
-== Módulo Pessoas
+=== Módulo Pessoas
 
 No módulo você pode inserir as informações das _pessoas físicas e
 jurídicas_ que serão trabalhadas dentro do sistema. Estas pessoas
@@ -262,7 +264,7 @@ no módulo Pessoas, registrar os tipos de deficiência e tipos de cor ou
 raça, informações importantes na fase de coleta de dados do Censo
 escolar.
 
-=== Tipos de deficiência e cor ou raça
+==== Tipos de deficiência e cor ou raça
 
 No cadastro de *Tipos de deficiência* você poderá cadastrar as
 deficiências que posteriormente podem ser informadas para alunos e
@@ -300,13 +302,13 @@ necessário manter os mesmos atualizados, com o vínculo correto, para que
 todos os alunos e docentes do sistema apresentem a informação correta
 durante a coleta.
 
-== Cadastros do Sistema Educacional
+=== Cadastros do Sistema Educacional
 
 Seção para aprensetar todos os cadastros do módulo _Escola_, como o
 cadastro de cursos e séries, e dos próprios alunos, sendo o principal
 cadastro do sistema.
 
-== Tipos de Ocorrências disciplinares, Transferências e Abandono
+=== Tipos de Ocorrências disciplinares, Transferências e Abandono
 
 No cadastro de *Tipos de ocorrências disciplinares*, você poderá
 cadastrar os tipos de ocorrências disciplinares que podem ser informadas
@@ -357,7 +359,7 @@ image:imagens/user-docs/user-figura-17-cadastro-desistencia.png[Formulário
 para cadastro de desistência com campos “Instituição” e “Motivo
 Abandono”, com botões “Salvar” e “Cancelar”]
 
-== Instituição
+=== Instituição
 
 Neste cadastro você poderá cadastrar as instituições responsáveis pelas
 escolas da rede de ensino, além de inserir parâmetros e dados
@@ -392,7 +394,7 @@ TIP: É importante anexar arquivos que apresentem uma boa qualidade.
 Lembrando que serão aceitos somente arquivos no formato *pdf* com até
 *2MB* quanto ao tamanho.
 
-== Cursos
+=== Cursos
 
 Neste cadastro você poderá cadastrar os cursos oferecidos pela
 instituição de ensino. Entretanto, antes de iniciar o cadastramento dos
@@ -433,7 +435,7 @@ letivo da escola, caso contrário, os módulos terão de ser informados
 individualmente por turma. O primeiro caso é o mais comum.
 |===
 
-== Escolas
+=== Escolas
 
 Neste cadastro você poderá cadastrar todas as escolas da rede municipal
 de ensino. Entretanto, antes de iniciar o cadastramento das escolas, é
@@ -487,7 +489,7 @@ que foram cadastradas para o ano letivo que será iniciado. Sendo assim,
 as turmas serão duplicadas no cadastro de turmas, sendo necessário
 renomear as turmas que farão parte do novo ano letivo.
 
-== Alunos
+=== Alunos
 
 Neste cadastro você poderá cadastrar novos alunos, controlar seus dados,
 responsáveis, deficiências, benefícios e outras informações.
@@ -600,7 +602,7 @@ TIP: Com a funcionalidade de fotos e a utilização de uma webcam, é
 possível coletar fotos para todos os alunos da escola e assim ter um
 cadastro ainda mais completo na rede de ensino.
 
-=== Unificação de alunos
+==== Unificação de alunos
 
 Embora o sistema possua diversas verificação para evitar a duplicidade
 de dados, como o CPF e código INEP do aluno, em alguns casos pode
@@ -633,7 +635,7 @@ botão *Salvar*, todas as matrículas e históricos dos cadastros
 duplicados serão migradas para o aluno definido como principal,
 excluindo os demais registros.
 
-== Componentes curriculares
+=== Componentes curriculares
 
 Neste cadastro você poderá cadastrar as disciplinas que poderão ser
 lecionadas na rede de ensino. Antes de iniciar o cadastramento dos
@@ -802,7 +804,7 @@ ditos, informando as descrições dos mesmos, assim como localização e
 `Sala 01'.
 |===
 
-== Turmas
+=== Turmas
 
 Neste cadastro você poderá informar os dados das turmas do ano letivo
 corrente, qual sua localização na escola, professor regente, capacidade
