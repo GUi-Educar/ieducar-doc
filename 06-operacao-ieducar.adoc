@@ -93,22 +93,22 @@ registros mais próximas. Um clique em um número x do botão leva
 diretamente para a esta página x de registros.
 
 |image:imagens/user-docs/user-componente-proxima-pagina.png[Sinal
-matemático de ``maior'' representando a indicação para próxima página]
+matemático de “maior” representando a indicação para próxima página]
 |Avançar página |Este botão exibe a próxima página de listagem de
 registros.
 
 |image:imagens/user-docs/user-componente-voltar-pagina.png[Sinal
-matemático de ``menor'' representando indicação para voltar página]
+matemático de “menor” representando indicação para voltar página]
 |Voltar página |Este botão exibe a página anterior de listagem de
 registros.
 
 |image:imagens/user-docs/user-componente-ultima-pagina.png[Duplo sinal
-matemático de ``maior'' representando indicação para última página]
+matemático de “maior” representando indicação para última página]
 |Última página |Este botão exibe a última página de listagem de
 registros.
 
 |image:imagens/user-docs/user-componente-primeira-pagina.png[Duplo sinal
-matemático de ``menor'' representando indicação para primeira página]
+matemático de “menor” representando indicação para primeira página]
 |Primeira página |Este botão exibe a primeira página de listagem de
 registros.
 |===
@@ -188,9 +188,9 @@ exibidos campos que podem ser usados para filtrar os registros da
 listagem.
 
 image:imagens/user-docs/user-figura-8-campos-filtros-cadastro-alunos.png[Formulário
-para busca de alunos com campos ``Código Aluno'', ``Código INEP'',
-``Código rede estadual do aluno (RA)'', ``Nome do aluno'', ``Data de
-Nascimento'', ``Nome do Pai'', ``Nome da Mãe'', ``Nome do Responsável'']
+para busca de alunos com campos “Código Aluno”, “Código INEP”,
+“Código rede estadual do aluno (RA)”, “Nome do aluno”, “Data de
+Nascimento”, “Nome do Pai”, “Nome da Mãe”, “Nome do Responsável”]
 
 Com os filtros de busca é possível, por exemplo, buscar todos os alunos
 com uma _data de nascimento_ específica. Para isto, basta informar a
@@ -203,8 +203,8 @@ que esteja descrita no campo, e o mesmo mostrará uma listagem que contém
 as informações que foram digitadas, como mostra a imagem abaixo:
 
 image:imagens/user-docs/user-figura-9-busca-rapida.png[Formulário para
-busca de alunos com campos ``Instituição'', ``Escola'' e ``Modelo'' já
-preenchidos, aguardando campo ``Aluno'' ser preenchido]
+busca de alunos com campos “Instituição”, “Escola” e “Modelo” já
+preenchidos, aguardando campo “Aluno” ser preenchido]
 
 Filtros de seleção são utilizados normalmente para a emissão de
 relatórios ou exportações de arquivos. Na Figura 10, pode ser
@@ -217,11 +217,11 @@ disponíveis para esta escola, e assim sucessivamente. O botão *Exibir*
 serve para processar o relatório.
 
 image:imagens/user-docs/user-figura-10-formulario-emissao-relatorio-atestado-vaga.png[Formulário
-para processamento de atestado de vaga com campos ``Emitir em branco'',
-``Ano'', ``Instituição'', ``Escola'', ``Curso'', ``Série'', ``Aluno'',
-``Documentos obrigatórios'', ``Emitir assinatura do gestor escolar'',
-``Emitir assinatura do secretário escolar'' e ``Emitir a data de
-validade do documento'', com botão ``Exibir'' abaixo]
+para processamento de atestado de vaga com campos “Emitir em branco”,
+“Ano”, “Instituição”, “Escola”, “Curso”, “Série”, “Aluno”,
+“Documentos obrigatórios”, “Emitir assinatura do gestor escolar”,
+“Emitir assinatura do secretário escolar” e “Emitir a data de
+validade do documento”, com botão “Exibir” abaixo]
 
 Filtros de seleção podem exibir ainda outro componente: a lupa. Neste
 caso, o usuário poderá buscar um respectivo dado cadastrado a partir de
@@ -278,8 +278,8 @@ ____
 ____
 
 image:imagens/user-docs/user-figura-13-tipos-deficiencia.png[Lista de
-deficiências com itens ``Altas Habilidades/Superdotação'', ``Autismo
-Clássico'', ``Baixa Visão'']
+deficiências com itens “Altas Habilidades/Superdotação”, “Autismo
+Clássico”, “Baixa Visão”]
 
 O cadastro de *Tipos de cor ou raça*, também apresentado no módulo
 *Pessoas*, é responsável pelo cadastramento dos tipos de cor ou raça que
@@ -291,8 +291,8 @@ ____
 ____
 
 image:imagens/user-docs/user-figura-14-listagem-raca.png[Lista de raças
-com itens ``Amarela'', ``Branca'', ``Indigena'', ``Não Declarada'',
-``Parda'' e ``Preta'']
+com itens “Amarela”, “Branca”, “Indigena”, “Não Declarada”,
+“Parda” e “Preta”]
 
 IMPORTANT: Os cadastros de *Tipos de deficiência* e *Tipos de cor ou
 raça*, são informações importantes para o *Censo escolar*, portanto, é
@@ -319,10 +319,10 @@ ocorrências disciplinares
 ____
 
 image:imagens/user-docs/user-figura-15-tipos-ocorrencias-disciplinares.png[Formulário
-para editar tipos de ocorrências disciplinares com os campos
-``Instituição'', ``Tipo de Ocorrência Disciplinar'', ``Descrição'' e
-``Máximo Ocorrências'', com botões ``Salvar'', ``Excluir'' e
-``Cancelar'']
+para editar tipos de ocorrências disciplinares com os campos “Instituição”, “Tipo
+de Ocorrência Disciplinar”, “Descrição” e
+“Máximo Ocorrências”, com botões “Salvar”, “Excluir” e
+“Cancelar”]
 
 Neste cadastro, é possível informar o número máximo de ocorrências, o
 que significa que quando algum aluno atingir o máximo de ocorrências
@@ -339,9 +339,9 @@ transferência
 ____
 
 image:imagens/user-docs/user-figura-16-tipos-transferencia.png[Formulário
-para editar tipos de transferẽncias com os campos ``Instituição'',
-``Motivo Transferẽncia'' e ``Descrição'', com os botões ``Salvar'',
-``Excluir'' e ``Cancelar'']
+para editar tipos de transferẽncias com os campos “Instituição”,
+“Motivo Transferẽncia” e “Descrição”, com os botões “Salvar”,
+“Excluir” e “Cancelar”]
 
 E por fim, o cadastro de *Tipos de abandono* você poderá cadastrar os
 tipos de abandono que também serão utilizados posteriormente ao
@@ -354,8 +354,8 @@ abandono
 ____
 
 image:imagens/user-docs/user-figura-17-cadastro-desistencia.png[Formulário
-para cadastro de desistência com campos ``Instituição'' e ``Motivo
-Abandono'', com botões ``Salvar'' e ``Cancelar'']
+para cadastro de desistência com campos “Instituição” e “Motivo
+Abandono”, com botões “Salvar” e “Cancelar”]
 
 == Instituição
 
@@ -380,10 +380,10 @@ irá carregar o documento e apresentá-lo abaixo com as opções de exclusão
 e visualização, conforme exemplo da Figura 18.
 
 image:imagens/user-docs/user-figura-18-documentos-padroes.png[Formulário
-para inserção de documentação padrão com campos ``Título'' e
-``Documentação Padrão'', opções para exclusão e visualização de ``Lista
-de Materiais'' e ``Termo de Contrato'', com botões ``Salvar'' e
-``Voltar'']
+para inserção de documentação padrão com campos “Título” e
+“Documentação Padrão”, opções para exclusão e visualização de “Lista
+de Materiais” e “Termo de Contrato”, com botões “Salvar” e
+“Voltar”]
 
 Para que o usuário possa emitir estes documentos, basta ele acessar o
 módulo *Escola em Documentos > Documentação padrão*.
@@ -406,10 +406,10 @@ ____
 ____
 
 image:imagens/user-docs/user-figura-19-curso-cadastrado.png[Lista de
-detalhes de curso com os campos ``Instituição'', ``Nível Ensino'',
-``Tipo Ensino'', ``Curso'', ``Quantidade Etapas'', ``Hora/Falta'',
-``Carga Horária'' e ``Padrão Ano Escolar'', com botões ``Novo'',
-``Editar'' e ``Voltar'']
+detalhes de curso com os campos “Instituição”, “Nível Ensino”,
+“Tipo Ensino”, “Curso”, “Quantidade Etapas”, “Hora/Falta”,
+“Carga Horária” e “Padrão Ano Escolar”, com botões “Novo”,
+“Editar” e “Voltar”]
 
 As principais opções do cadastro de cursos são detalhadas a seguir:
 
@@ -446,11 +446,11 @@ ____
 ____
 
 image:imagens/user-docs/user-figura-20-detalhes-escola-cadastrada.png[Lista
-de detalhes de uma escola cadastrada com os campos ``Instituição'',
-``Escola'', ``Sigla'', ``Localização'', ``CEP'', ``Bairro'', ``Tipo
-Logradouro'', ``Logradouro'', ``Complemento'', ``Telefone'', ``Curso'',
-informações condensadas de anos letivos, com opções ``Iniciar'',
-``Finalizar'' e ``Editar'']
+de detalhes de uma escola cadastrada com os campos “Instituição”,
+“Escola”, “Sigla”, “Localização”, “CEP”, “Bairro”, “Tipo
+Logradouro”, “Logradouro”, “Complemento”, “Telefone”, “Curso”,
+informações condensadas de anos letivos, com opções “Iniciar”,
+“Finalizar” e “Editar”]
 
 As principais opções e/ou componentes do cadastro de escolas são
 detalhadas a seguir:
@@ -498,10 +498,10 @@ ____
 
 image:imagens/user-docs/user-figura-21-parcial-cadastro-aluno.png[Lista
 de informações parciais de cadastro de aluno no modo edição com os
-campos ``Foto'', ``Código aluno'', ``Código INEP'', ``Código rede
-estadual'', ``Código Sistema'', ``Pessoa'', ``Data de nascimento'', ``RG
-/ Data emissão'', ``CPF'', ``Justificativa para a falta de
-documentação'' e ``Tipo certidão civil'']
+campos “Foto”, “Código aluno”, “Código INEP”, “Código rede
+estadual”, “Código Sistema”, “Pessoa”, “Data de nascimento”, “RG
+/ Data emissão”, “CPF”, “Justificativa para a falta de
+documentação” e “Tipo certidão civil”]
 
 Ao selecionar a opção Cadastrar Pessoa ou Editar pessoa, se estiver
 editando um aluno, uma janela de cadastro rápido será aberta, como
@@ -517,12 +517,12 @@ botão *Gravar* e será exibida novamente uma tela similar a apresentada
 na Figura 21.
 
 image:imagens/user-docs/user-figura-22-cadastro-rapido-aluno.png[Formulário
-para cadastro rápido de alunos com abas ``Ficha médica'', ``Moradia'',
-``Recursos prova INEP'' e ``Projetos'', com os campos ``Nome'',
-Sexo``,''Estado civil``,''Data de
-nascimento``,''Telefone``,''Celular``,''Naturalidade``,''Dados do
-endereço``,''CEP``,''Município``,''Distrito``,''Logradouro``,''Bairro``,''Complemento``,''Número``,''Letra``,''Número
-do apartamento``,''Bloco" e ``Andar'']
+para cadastro rápido de alunos com abas “Ficha médica”, “Moradia”,
+“Recursos prova INEP” e “Projetos”, com os campos “Nome”,
+Sexo“,”Estado civil“,”Data de
+nascimento“,”Telefone“,”Celular“,”Naturalidade“,”Dados do
+endereço“,”CEP“,”Município“,”Distrito“,”Logradouro“,”Bairro“,”Complemento“,”Número“,”Letra“,”Número
+do apartamento“,”Bloco" e “Andar”]
 
 O mesmo processo realizado para o aluno poderá ser realizado para o Pai
 e Mãe do aluno, entretanto, diferentemente do cadastro/edição do nome do
@@ -530,9 +530,9 @@ aluno, a janela exibirá menos informações. Caso desejar informar mais
 detalhes, selecione a opção Cadastro detalhado, como mostra a Figura 23.
 
 image:imagens/user-docs/user-figura-23-pai-mae-rapido.png[Formulário para
-cadastro rápido de pai ou mãe com os campos ``Nome'', ``Sexo'', ``Estado
-civil'', ``Data de nascimento'', ``Falecido'', com opção ``Cadastro
-detalhado'', botões ``Gravar'' e ``Cancelar'']
+cadastro rápido de pai ou mãe com os campos “Nome”, “Sexo”, “Estado
+civil”, “Data de nascimento”, “Falecido”, com opção “Cadastro
+detalhado”, botões “Gravar” e “Cancelar”]
 
 Quando a opção de cadastro detalhado for selecionada, uma outra página
 de cadastro com informações mais detalhadas ira abrir em uma nova aba ou
@@ -589,8 +589,8 @@ Física quanto na exibição/edição no cadastro de alunos.
 
 image:imagens/user-docs/user-figura-24-edicao-foto-aluno-pessoa-fisica.png[Formulário
 para alteração de foto de aluno com exibição de foto atual de exemplo,
-com os campos ``Foto atual'', ``Excluir a foto'' e ``Trocar foto'', com
-botão ``Escolha um arquivo'']
+com os campos “Foto atual”, “Excluir a foto” e “Trocar foto”, com
+botão “Escolha um arquivo”]
 
 NOTE: Recomenda-se o uso de imagens nos formatos *jpg*, *jpeg*, *png*
 e *gif*, com tamanho máximo de *150KB*, garantindo assim qualidade de
@@ -620,10 +620,10 @@ alunos
 ____
 
 image:imagens/user-docs/user-figura-25-unificando-aluno-duplicado.png[Formulário
-para unificiação de alunos duplicados com os campos ``Ano'',
-``Instituição'', ``Escola'', ``Aluno principal'', ``Aluno duplicado''
-com a identificação dele, opções de ``Excluir referência de aluno
-duplicado'' e ``Adicionar Novo'', botão ``Unificar'']
+para unificiação de alunos duplicados com os campos “Ano”,
+“Instituição”, “Escola”, “Aluno principal”, “Aluno duplicado”
+com a identificação dele, opções de “Excluir referência de aluno
+duplicado” e “Adicionar Novo”, botão “Unificar”]
 
 Na tela de unificação, o usuário deverá preencher o campo *Aluno
 principal* com o aluno que será mantido no sistema, pesquisando por nome
@@ -649,9 +649,9 @@ ____
 
 image:imagens/user-docs/user-figura-26-editar-disciplina-componente-curricular.png[Formulário
 para edição de disciplina no cadastro de componentes curriculares, com
-os campos ``Instituição'', ``Nome'', ``Nome abreviado'', ``Base
-curricular'', ``Áreas conhecimento'', ``Disciplina Educasenso'' e
-``Ordem de apresentação'', botões ``Salvar'' e ``Cancelar'']
+os campos “Instituição”, “Nome”, “Nome abreviado”, “Base
+curricular”, “Áreas conhecimento”, “Disciplina Educasenso” e
+“Ordem de apresentação”, botões “Salvar” e “Cancelar”]
 
 O cadastro de *Tipos de dispensa* permite cadastrar motivos pelos quais
 determinados alunos podem ser dispensados de uma disciplina. No
@@ -677,13 +677,13 @@ ____
 
 image:imagens/user-docs/user-figura-27-editando-ano-escolar-cadastro-series.png[Formulário
 para edição de ano escolar no cadastro de séries, com os campos
-``Instituição'', ``Curso'', ``Série'', ``Etapa Curso'', ``Regra de
-avaliação'', ``Regra de avaliação diferenciada'', ``Concluente'',
-``Carga Horária'', ``Dias letivos'', ``Idade padrão'', ``Faixa etária''
-e ``Observação histórico'', opções ``Exibir alerta ao tentar matricular
-alunos fora da faixa etária da série/ano'', ``Bloquear matrículas de
-alunos fora da faixa etária da série/ano'' e ``Exigir INEP para a
-matrícula'', botões ``Salvar'', ``Excluir'' e ``Cancelar'']
+“Instituição”, “Curso”, “Série”, “Etapa Curso”, “Regra de
+avaliação”, “Regra de avaliação diferenciada”, “Concluente”,
+“Carga Horária”, “Dias letivos”, “Idade padrão”, “Faixa etária”
+e “Observação histórico”, opções “Exibir alerta ao tentar matricular
+alunos fora da faixa etária da série/ano”, “Bloquear matrículas de
+alunos fora da faixa etária da série/ano” e “Exigir INEP para a
+matrícula”, botões “Salvar”, “Excluir” e “Cancelar”]
 
 As principais opções do cadastro de séries/anos são detalhadas a seguir:
 
@@ -717,8 +717,8 @@ edição conforme ilustrado na Figura 28.
 
 image:imagens/user-docs/user-figura-28-editar-anos-escolas-disciplina-matematica.png[Formulário
 para editar anos escolas na disciplina de matemática, com os campos
-``Ensino Fundamental de 9 anos'', incluindo a carga horária para cada
-ano, por exemplo ``Primeiro ano'', ``Segundo ano'' e assim por diante]
+“Ensino Fundamental de 9 anos”, incluindo a carga horária para cada
+ano, por exemplo “Primeiro ano”, “Segundo ano” e assim por diante]
 
 No cadastro de *Séries da escola* você poderá cadastrar todas as séries
 de uma escola, a qual herda as informações do cadastro de séries/anos
@@ -731,11 +731,11 @@ ____
 
 image:imagens/user-docs/user-figura-29-editar-ano-escolar-series-escola.png[Formulário
 para edição de ano escolar no cadastro de séries da escola, com os
-campos ``Instituição'', ``Escola'', ``Curso'', ``Série'', ``Hora
-Inicial'', ``Hora Final'', ``Hora Início Intervalo'' e ``Hora Fim
-Intervalo'', com opções ``Bloquear enturmação após atingir limite de
-vagas'', ``Bloquear cadastro de novas turmas antes de atingir limite de
-vagas (no mesmo turno)'']
+campos “Instituição”, “Escola”, “Curso”, “Série”, “Hora
+Inicial”, “Hora Final”, “Hora Início Intervalo” e “Hora Fim
+Intervalo”, com opções “Bloquear enturmação após atingir limite de
+vagas”, “Bloquear cadastro de novas turmas antes de atingir limite de
+vagas (no mesmo turno)”]
 
 As principais opções encontradas no cadastro de Séries da escola estão
 detalhadas a seguir:
@@ -777,9 +777,9 @@ ____
 ____
 
 image:imagens/user-docs/user-figura-30-editar-dados-comodo.png[Formulário
-para editar dados de um cômodo, com os campos ``Instituição'',
-``Escola'', ``Prédio'', ``Tipo de ambiente'', ``Ambiente'', ``Área m²''
-e ``Descrição do ambiente'', com os botões ``Salvar'' e ``Cancelar'']
+para editar dados de um cômodo, com os campos “Instituição”,
+“Escola”, “Prédio”, “Tipo de ambiente”, “Ambiente”, “Área m²”
+e “Descrição do ambiente”, com os botões “Salvar” e “Cancelar”]
 
 Em *Cadastros > Tipos > Infraestrutura* é possível ainda cadastrar os
 prédios, funções dos ambientes do prédio e os próprios ambientes. Estes
@@ -814,13 +814,13 @@ ____
 ____
 
 image:imagens/user-docs/user-figura-31-editar-cadastro-turmas.png[Formulário
-de edição de turmas, com os campos ``Instituição'', ``Escola'',
-``Curso'', ``Série'', ``Ano letivo'', ``Sala'', ``Professor/Regente'',
-``Tipo de turma'', ``Turma'', ``Sigla'', ``Máximo de Alunos'' e
-``Disciplina dispensada'', opções ``Ativo'' e ``Multi-Seriada'', na
-segunda seção com os campos ``Hora Inicial'', ``Hora Final'', ``Hora
-Início Intervalo'', ``Hora Fim Intervalo'', ``Turno'' e ``Modelo
-relatório boletim'']
+de edição de turmas, com os campos “Instituição”, “Escola”,
+“Curso”, “Série”, “Ano letivo”, “Sala”, “Professor/Regente”,
+“Tipo de turma”, “Turma”, “Sigla”, “Máximo de Alunos” e
+“Disciplina dispensada”, opções “Ativo” e “Multi-Seriada”, na
+segunda seção com os campos “Hora Inicial”, “Hora Final”, “Hora
+Início Intervalo”, “Hora Fim Intervalo”, “Turno” e “Modelo
+relatório boletim”]
 
 As principais opções do cadastro de *Turmas* são encontradas na aba
 Dados gerais, e serão detalhadas a seguir:
