@@ -17,7 +17,7 @@ link:#upgrade[upgrade].
 
 Clone o repositório:
 
-[source,bash]
+[source,terminal]
 ----
 git clone https://github.com/portabilis/i-educar.git && cd i-educar
 ----
@@ -25,14 +25,14 @@ git clone https://github.com/portabilis/i-educar.git && cd i-educar
 Faça o build das imagens Docker utilizadas no projeto (pode levar alguns
 minutos) e inicie os containers da aplicação:
 
-[source,bash]
+[source,terminal]
 ----
 docker-compose up -d --build
 ----
 
 Execute o comando para fazer uma nova instalação:
 
-[source,bash]
+[source,terminal]
 ----
 docker-compose exec php composer new-install
 ----
@@ -42,7 +42,7 @@ docker-compose exec php composer new-install
 Após finalizada a instalação, descubra em qual endereço o i-Educar está
 rodando, basta executar o comando:
 
-[source,bash]
+[source,terminal]
 ----
 docker-compose port nginx 80
 ----
@@ -66,14 +66,14 @@ Para rodar os testes, é necessário ter o i-Educar rodando e com uma base
 limpa, apenas a estrutura inicial e as migrations, crie o arquivo de
 configuração:
 
-[source,bash]
+[source,terminal]
 ----
 cp .env.example .env.testing
 ----
 
 Execute o comando:
 
-[source,bash]
+[source,terminal]
 ----
 docker-compose exec php vendor/bin/phpunit
 ----
