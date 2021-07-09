@@ -5,11 +5,9 @@ para facilitar o desenvolvimento.
 
 ==== Instalação utilizando Docker
 
-____
-ATENÇÃO: Essa forma de instação tem o objetivo de facilitar
+WARNING: Essa forma de instação tem o objetivo de facilitar
 demonstrações e desenvolvimento. Não é recomendado para ambientes de
 produção!
-____
 
 Para instalar o projeto execute *todos os passos* abaixo, caso você
 deseje atualizar sua instalação do i-Educar, siga os passos do
