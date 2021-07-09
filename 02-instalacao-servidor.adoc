@@ -39,7 +39,10 @@ https://github.com/portabilis/i-educar/releases[download] da versão mais
 recente do i-Educar e extraia o conteúdo do release em uma pasta no seu
 servidor. O instalador está disponível desde a versão `2.1.0`.
 
-===== Configurando o servidor
+Instale pela sua distribuição o `php` (na versão 7.4 ou superior),
+o `git`, o `nginx` e o `postgresql` (na versão 13). Na sequencia extraia
+os códigos fontes do i-Educar para o diretório `/var/www/ieducar`
+=== Configurando o servidor
 
 O *Nginx* precisa estar devidamente configurado para rodar o i-Educar e
 permitir acesso ao instalador. Você encontra um exemplo de configuração
