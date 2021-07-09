@@ -139,11 +139,9 @@ Figura 4.
 
 image:imagens/user-docs/user-figura-7-botoes-acoes-editar.png[image]
 
-____
-*Nota:* O botão *Excluir* permite que o registro seja excluído
+NOTE: O botão *Excluir* permite que o registro seja excluído
 definitivamente do banco de dados. Para garantir a integridade do banco
 de dados, alguns cadastros não exibem este botão.
-____
 
 Além dos botões supracitados, outros componentes de página podem ser
 apresentados nos cadastros, tais quais são descritos a seguir:
@@ -231,11 +229,9 @@ um clique na lupa, que faz com que a janela Pesquisa de valores seja
 aberta exibindo componentes de filtragem similares ao demonstrado na
 Figura 8.
 
-____
-*Nota:* O componente lupa é genérico, e poderá ser exibido em outras
+NOTE: O componente lupa é genérico, e poderá ser exibido em outras
 áreas do sistema como forma de auxílio ao preenchimento de campos de
 outros cadastros.
-____
 
 == Módulo Endereçamento e Pessoas
 
@@ -298,13 +294,11 @@ image:imagens/user-docs/user-figura-14-listagem-raca.png[Lista de raças
 com itens ``Amarela'', ``Branca'', ``Indigena'', ``Não Declarada'',
 ``Parda'' e ``Preta'']
 
-____
-*Importante:* Os cadastros de *Tipos de deficiência* e *Tipos de cor ou
+IMPORTANT: Os cadastros de *Tipos de deficiência* e *Tipos de cor ou
 raça*, são informações importantes para o *Censo escolar*, portanto, é
 necessário manter os mesmos atualizados, com o vínculo correto, para que
 todos os alunos e docentes do sistema apresentem a informação correta
 durante a coleta.
-____
 
 == Cadastros do Sistema Educacional
 
@@ -394,11 +388,9 @@ de Materiais'' e ``Termo de Contrato'', com botões ``Salvar'' e
 Para que o usuário possa emitir estes documentos, basta ele acessar o
 módulo *Escola em Documentos > Documentação padrão*.
 
-____
-*Dica:* É importante anexar arquivos que apresentem uma boa qualidade.
+TIP: É importante anexar arquivos que apresentem uma boa qualidade.
 Lembrando que serão aceitos somente arquivos no formato *pdf* com até
 *2MB* quanto ao tamanho.
-____
 
 == Cursos
 
@@ -579,13 +571,11 @@ referentes ao uniforme escolar do aluno, como por exemplo o tamanho das
 peças.
 |===
 
-____
-*Nota:* As abas de _Ficha Médica_, _Moradia_, _Recursos prova INEP_,
+NOTE: As abas de _Ficha Médica_, _Moradia_, _Recursos prova INEP_,
 _Projetos_ e _Uniforme escolar_ no cadastro de alunos, não são
 obrigatórias, servem somente para complemento e detalhamento do cadastro
 do mesmo. A obrigatoriedade aplica-se somente aos _Dados Pessoais_ do
 aluno.
-____
 
 O sistema também traz a inovação de gravar fotos no cadastro dos alunos,
 que poderão ser visualizadas tanto nos cadastros quanto em relatórios. O
@@ -602,17 +592,13 @@ para alteração de foto de aluno com exibição de foto atual de exemplo,
 com os campos ``Foto atual'', ``Excluir a foto'' e ``Trocar foto'', com
 botão ``Escolha um arquivo'']
 
-____
-*Nota:* Recomenda-se o uso de imagens nos formatos *jpg*, *jpeg*, *png*
+NOTE: Recomenda-se o uso de imagens nos formatos *jpg*, *jpeg*, *png*
 e *gif*, com tamanho máximo de *150KB*, garantindo assim qualidade de
 imagem e alta performance no upload e exibição da foto.
-____
 
-____
-*Dica:* Com a funcionalidade de fotos e a utilização de uma webcam, é
+TIP: Com a funcionalidade de fotos e a utilização de uma webcam, é
 possível coletar fotos para todos os alunos da escola e assim ter um
 cadastro ainda mais completo na rede de ensino.
-____
 
 === Unificação de alunos
 
@@ -879,12 +865,10 @@ suporte.
 utilizada.
 |===
 
-____
-*Dica:* A aba de *Dados adicionais* contém campos específicos que são
+TIP: A aba de *Dados adicionais* contém campos específicos que são
 colhidos na fase inicial do Educacenso/INEP, portanto, mesmo não se
 tratando de campos obrigatórios é importante atualizá-los para que
 facilite no momento da coleta de dados do Censo.
-____
 
 Na visualização da turma existem dois processos para trabalhar com a
 ordenação dos alunos nas listas de presenças, sendo os botões
@@ -905,11 +889,11 @@ apresenta a imagem abaixo:
 image:imagens/user-docs/user-figura-32-reordenando-alunos-turma.png[Formulário
 com lista de alunos e campos numéricos para ordenação dos alunos]
 
-____
-*Nota:* Sempre que uma turma for descontinuada, opte por não excluir a
+NOTE: Sempre que uma turma for descontinuada, opte por não excluir a
 mesma. O campo *Ativo*, quando desmarcado, deve resolver a situação.
 Após desmarcar o campo *Ativo* na turma desejada, a mesma não será mais
 listada nas opções de enturmação, nem mesmo nos relatórios.
+
 == servidores e professores
 
 Nesta seção apresentaremos os processos para a gestão de servidores no
