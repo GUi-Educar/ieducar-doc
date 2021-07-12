@@ -1,4 +1,4 @@
-=  CapInstalação para desenvolvedores
+=  Capítulo 2 -Instalação para desenvolvedores
 
 == Dependência
 
