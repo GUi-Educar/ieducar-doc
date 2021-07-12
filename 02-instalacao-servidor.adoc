@@ -1,4 +1,6 @@
-== Servidor
+= Capítulo 01 - Instalação
+
+== Pre requisitos
 
 * http://php.net/[PHP] versão 7.4
 * https://getcomposer.org/[Composer]
@@ -42,7 +44,8 @@ servidor. O instalador está disponível desde a versão `2.1.0`.
 Instale pela sua distribuição o `php` (na versão 7.4 ou superior),
 o `git`, o `nginx` e o `postgresql` (na versão 13). Na sequencia extraia
 os códigos fontes do i-Educar para o diretório `/var/www/ieducar`
-=== Configurando o servidor
+
+== Configurando o servidor
 
 O *Nginx* precisa estar devidamente configurado para rodar o i-Educar e
 permitir acesso ao instalador. Você encontra um exemplo de configuração
@@ -61,7 +64,7 @@ servidor principalmente as seguintes diretivas:
 Depois de tudo pronto basta reiniciar o processo do nginx para que as
 configurações novas entrem em vigor.
 
-===== Executando o instalador
+== Executando o instalador
 
 Agora que o Nginx está configurado você pode acessar o instalador em:
 
@@ -85,7 +88,7 @@ que se encontram em `storage/logs` para determinar suas causas. Não
 hesite em link:#comunicação[entrar em contato] caso enfrente
 dificuldades!
 
-==== Instalação do pacote de relatórios
+== Instalação do pacote de relatórios
 
 O i-Educar possui um pacote de mais de 40 relatórios.
 
@@ -93,7 +96,7 @@ Para instalar o pacote de relatórios visite o repositório do projeto
 https://github.com/portabilis/i-educar-reports-package e siga as
 instruções de instalação.
 
-==== Upgrade
+== Upgrade
 
 * https://github.com/portabilis/i-educar/wiki/Upgrade-para-2.6-da-2.5[Upgrade
 para 2.6 da 2.5].

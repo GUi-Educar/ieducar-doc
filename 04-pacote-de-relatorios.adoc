@@ -1,3 +1,5 @@
+= Capitulo 04 - Instalando pacotes de relatórios
+
 ____
 *Importante:* se você estiver utilizando a versão 2.1.x do i-Educar,
 utilize os comandos de instalação que se encontram no
@@ -11,7 +13,7 @@ realizar algumas configurações.
 
 Acesse a página do projeto e execute o seguinte comando:
 
-[source,terminal]
+[source,bash]
 ----
 git checkout master
 git pull
@@ -19,7 +21,7 @@ git pull
 
 Logo em seguida, atualize as dependências do Composer:
 
-[source,terminal]
+[source,bash]
 ----
 docker run -it -v $(pwd):/app composer install --ignore-platform-reqs
 ----
@@ -29,14 +31,14 @@ docker run -it -v $(pwd):/app composer install --ignore-platform-reqs
 Caso você ainda não tenha instalado o repositório dos relatórios do
 i-Educar, execute o seguinte comando:
 
-[source,terminal]
+[source,bash]
 ----
 git clone https://github.com/portabilis/i-educar-reports-package.git ieducar/modules/Reports
 ----
 
 Atualize a branch `master`:
 
-[source,terminal]
+[source,bash]
 ----
 git checkout master
 git pull
@@ -50,7 +52,7 @@ o i-Educar.
 Abra o arquivo `ieducar/configuration/ieducar.ini` e adicione a seguinte
 linha as configurações dos relatórios:
 
-[source,terminal]
+[source,bash]
 ----
 report.source_path = /home/portabilis/ieducar/ieducar/modules/Reports/ReportSources/
 ----
@@ -86,7 +88,7 @@ migrations que são individuais por cada relatório.
 
 Execute os seguintes comandos:
 
-[source,terminal]
+[source,bash]
 ----
 docker-compose exec ieducar_1604 ieducar/vendor/bin/phinx seed:run -s StartingReportsSeed
 docker-compose exec ieducar_1604 ieducar/vendor/bin/phinx migrate
@@ -98,7 +100,7 @@ Para que tudo funcione adequadamente, principalmente a parte de
 relatórios, é necessário definir algumas permissões especiais em pastas
 e arquivos. Use os comandos abaixo:
 
-[source,terminal]
+[source,bash]
 ----
 docker-compose exec ieducar_1604 chmod +x ieducar/vendor/cossou/jasperphp/src/JasperStarter/bin/jasperstarter
 docker-compose exec ieducar_1604 chmod 777 -R ieducar/modules/Reports/ReportSources/
@@ -106,7 +108,7 @@ docker-compose exec ieducar_1604 chmod 777 -R ieducar/modules/Reports/ReportSour
 
 == Compilando arquivos do JasperReports
 
-[source,terminal]
+[source,bash]
 ----
 docker-compose exec ieducar_1604 bash
 cd ieducar/modules/Reports/ReportSources

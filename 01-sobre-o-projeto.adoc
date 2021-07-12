@@ -1,4 +1,6 @@
-=== Sobre i-Educar
+= Prefácio 
+
+== Sobre i-Educar
 
 O i-Educar é um software livre de gestão escolar totalmente on-line que
 permite secretários escolares, professores, coordenadores e gestores da
@@ -13,7 +15,7 @@ disponibilizado no Portal do Software Público do Governo Federal em
 2008, com o objetivo de atender às necessidades das Secretarias de
 Educação e Escolas Públicas de *todo o Brasil*.
 
-=== Comunicação
+== Comunicação
 
 Acreditamos que o sucesso do projeto depende diretamente da interação
 clara e objetiva entre os membros da Comunidade. Por isso, estamos
@@ -48,16 +50,16 @@ Qualquer outro grupo de discussão não é reconhecido oficialmente pela
 comunidade i-Educar e não terá suporte da Portabilis - mantenedora do
 projeto.
 
-=== Como contribuir
+== Como contribuir
 
 Contribuições são *super bem vindas*! Se você tem vontade de construir o
 i-Educar junto conosco, veja o nosso link:./contributing.md[guia de
 contribuição] onde explicamos detalhadamente como trabalhamos e de que
 formas você pode nos ajudar a alcançar nossos objetivos.
 
-=== Perguntas frequentes (FAQ)
+== Perguntas frequentes (FAQ)
 
-==== Qual é o modelo de governança do i-Educar?
+=== Qual é o modelo de governança do i-Educar?
 
 Atualmente o projeto é mantido pela
 http://www.portabilis.com.br/[Portabilis], empresa que fornece serviços
@@ -73,7 +75,7 @@ Portabilis e seus membros e parceiros são responsáveis pela definição do
 roadmap, moderação das discussões e aplicação de patches. Esperamos
 contar cada vez mais com a participação da comunidade nestes aspectos.
 
-==== Como ajudar o i-Educar a ter um fluxo de trabalho mais aberto e transparente em comunidade?
+=== Como ajudar o i-Educar a ter um fluxo de trabalho mais aberto e transparente em comunidade?
 
 Recentemente a Portabilis se dispôs a trabalhar diretamente com o
 i-Educar em comunidade. Por causa disto foi feita uma contribuição
@@ -91,7 +93,7 @@ o próprio roadmap. Aos poucos vamos ajustando nossos fluxos de trabalho
 para que sejam totalmente transparentes e contamos com o auxílio e
 paciência de todos os membros da comunidade durante este processo.
 
-==== Seria possivel incluir algum membro de comunidade na administração do projeto?
+=== Seria possivel incluir algum membro de comunidade na administração do projeto?
 
 Antes de tudo é importante deixar claro que a Portabilis, na forma de
 pessoas que trabalham ativamente no i-Educar, é um membro da comunidade
