@@ -111,3 +111,52 @@ sim por uma questão prática de envolvimento e dedicação ao projeto.
 De qualquer forma, esperamos que o engajamento de qualquer pessoa na
 comunidade não dependa da possibilidade de se obter títulos ou posições
 dentro do projeto.
+
+== Como é o desenvolvimento
+
+Planejamento sugerido por
+[@diegoholiveira](https://github.com/diegoholiveira) e que deve ser o
+caminho que seguiremos. Abriremos discussão em breve sobre o assunto.
+
+=== 1) Adotar padrões:
+
+* PSR-1 e PSR-2 como coding style;
+* PSR-4 para organização do código;
+
+Pensando nisso, iriamos migrar todas as classes e interfaces para uma
+pasta `src` na raiz do projeto. Todos os arquivos públicos iriam para a
+pasta `public` e apenas essa pasta deveria ser visível no servidor web.
+Todos os `require` e `include` seriam excluídos e apenas o autoload do
+composer seria usado pra carregar as classes e outras dependências.
+
+Essa primeira parte iria preparar nosso código para as mudanças futuras.
+
+=== 2) Separar o HTML do PHP
+
+Remover todo o html / css / javascript que estiver na pasta `src`. os
+assets (css/javascript), inicialmente vão pra pasta `public`. O HTML
+deve ser extraído para uma pasta chamada `templates` e renderizado
+usando o https://twig.symfony.com[Twig].
+
+Isso iria começar a separar a camada de template do nosso código, assim
+mudanças de UI não precisam ser feitas no código e nosso código para a
+ficar mais limpo, para que as próximas mudanças sejam mais fáceis.
+
+=== 3) Adotar o Symfony como framework;
+
+Inicialmente começamos implementando apenas o roteamento de urls pra
+dentro do Symfony, sem nos preocupar em usar todo o poderio do Symfony,
+como DI e outras coisas; Com o tempo vamos refatorando o código pra usar
+todo o poderio do Symfony.
+
+=== 4) Adotar uma ORM
+
+Como Symfony não define um ORM padrão, poderiamos adotar qualquer bom
+ORM disponível. Eu recomendo o Doctrine, é um projeto muito maduro e que
+funciona muito bem.
+
+=== 5) Adotar webpack e começar a transformar o sistema em um Single Page Application;
+
+Nessa fase poderiamos adotar react / vue ou outro framework pra front
+end e começariamos a transformar o código php pra servir JSON ao invés
+de HTML;
