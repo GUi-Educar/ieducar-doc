@@ -1,3 +1,5 @@
+= Capítulo - Troubleshoots do banco de dados
+
 Comando do https://laravel.com/docs/artisan[Artisan] para restaurar um
 backup do banco de dados:
 
