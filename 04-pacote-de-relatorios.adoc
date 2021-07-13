@@ -1,4 +1,4 @@
-= Capitulo 04 - Instalando pacotes de relatórios
+= Capitulo - Instalando pacotes de relatórios
 
 ____
 *Importante:* se você estiver utilizando a versão 2.1.x do i-Educar,
