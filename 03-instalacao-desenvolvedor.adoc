@@ -1,4 +1,4 @@
-=  Capítulo 2 -Instalação para desenvolvedores
+= Capítulo - Instalação para desenvolvedores
 
 == Dependência
 
